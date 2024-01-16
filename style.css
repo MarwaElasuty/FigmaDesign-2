@@ -1,0 +1,391 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #E8F5E9;
+    justify-content: space-between;
+    padding-left: 85px;
+    padding-right: 10px;
+    font-weight: 500;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+ul li {
+
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#nav-links {
+    margin: auto;
+
+}
+
+#nav-links-btns {
+    display: flex;
+    margin-left: 240px;
+    align-items: center;
+}
+
+#nav-links-btns button {
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+
+#sign-up-btn {
+    background-color: #009379;
+    color: white;
+    border-style: none;
+    font-size: 15px;
+
+}
+
+
+#login-btn {
+    font-size: 15px;
+    color: #009379;
+    background-color: #E8F5E9;
+    border-style: none;
+}
+
+#background-content {
+    column-count: 2;
+    background-color: #E8F5E9;
+    display: flex;
+    height: 600px;
+    align-items: center;
+
+}
+
+
+#background-content h1 {
+    font-weight: 600;
+}
+
+#background-img {
+    width: 40%;
+}
+
+#background-text {
+    text-align: center;
+    width: 60%;
+}
+
+#background-text>h1 {
+    font-size: 65px;
+}
+
+#background-text>span {
+    color: #009379;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#background-text>div>button {
+    height: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: white;
+    background-color: #009379;
+    font-size: 15px;
+    border-style: none;
+}
+
+#background-text>p {
+    font-weight: 400;
+    color: #919191;
+}
+
+#clients {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#clients h1 {
+    font-weight: 600;
+}
+
+#clients p {
+    font-weight: 400;
+    color: #919191;
+}
+
+#sponsors {
+    margin-top: 62px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#community {
+    width: 50%;
+    margin: auto;
+    margin-top: 90px;
+    text-align: center;
+}
+
+#community>span {
+    display: inline-block;
+    width: 57%;
+}
+
+#community h1 {
+    font-weight: 600;
+}
+
+#community>p {
+    font-weight: 400;
+    color: #919191;
+}
+
+#community-cards-div {
+    column-count: 3;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.card {
+    padding: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: 1px solid black;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px 14px rgb(252, 252, 255);
+    width: 22%;
+}
+
+
+.card-title-span {
+    display: inline-block;
+    width: 52%;
+}
+
+.card-text-span {
+    color: #919191;
+}
+
+.card>span>h2 {
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+#description {
+    column-count: 2;
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+
+#description-img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#description-text {
+    width: 60%;
+}
+
+#description-text>h1 {
+    font-weight: 600;
+
+}
+
+#description-text p {
+    font-weight: 400;
+    color: #919191;
+}
+
+#desc-title-span {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+#desc-title-span>h1 {
+    font-weight: 500;
+}
+
+#desc-span {
+    display: inline-block;
+    width: 80%;
+}
+
+#learn-more-div {
+    margin-top: 25px;
+}
+
+.learn-more-div button {
+    height: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #009379;
+    border-style: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#statistics {
+    column-count: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #E8F5E9;
+    padding-top: 20px;
+    height: 350px;
+}
+
+#statistics-left {
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+#statistics-left > span{
+    color: green;
+    display: inline-block;
+    width: 80%;
+    font-size: 55px;
+    font-weight: 500;
+    text-align: right;
+    margin-left: 75px;
+    
+}
+
+#statistics-left span:nth-of-type(2){
+    color: #919191;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 70px;
+}
+
+
+#statistics-left > h1{
+    font-weight: 500;
+}
+
+#statistics-right {
+    width: 50%;
+}
+
+
+
+#first-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#second-div {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.text-div{
+    display: flex;
+    justify-content: space-evenly;
+    color: #919191;
+}
+.text-div p{
+    width: 15%;
+}
+
+.design-your-site{
+    column-count: 2;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.design-img{
+    width: 50%;
+    text-align: center;
+}
+
+.design-text{
+    width: 50%;
+    
+}
+.design-text > h1{
+   width: 80%;
+   font-weight: 600;
+   font-size: 40px;
+}
+
+.design-text > p{
+    margin-top: 12px;
+    color: #707070;
+    width: 80%;
+}
+
+#grey-background{
+    background-color: #E8F5E9;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+
+#grey-background-img{
+    width: 40%;
+}
+
+#grey-background-text{
+    width: 60%;
+}
+
+#grey-background-text > p::after{
+    content: 'Tim Smith';
+    color: #009379;
+    display: block;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 11px;
+}
+
+.design-text > span{
+    font-weight: 400;
+    color: #919191;
+}
+
+img[alt="tesla"]{
+    width: 500px;
+    border-radius: 15px;
+    height: 340px;
+}
